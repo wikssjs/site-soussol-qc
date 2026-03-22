@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /devis-soussol/
+
+Sitemap: https://prix-soussol.ca/sitemap-index.xml

@@ -219,7 +219,7 @@
   <a href="/devis-soussol/"
      class="ss-btn-primary block w-full py-5 text-white font-bold text-lg rounded-xl mb-4 text-center"
      target="_blank" rel="noopener sponsored">
-    Obtenir mes soumissions gratuites →
+    Obtenir mes soumissions gratuites
     <svg class="w-5 h-5 inline-block ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
     </svg>
@@ -846,6 +846,11 @@ if (_stickyBar) {
     if (_formEl) {
       var rect = _formEl.getBoundingClientRect();
       _stickyBar.style.display = (rect.top < window.innerHeight && rect.bottom > 0) ? 'none' : '';
+    }
+  }, {passive: true});
+}
+</script></body>
+</html>? 'none' : '';
     }
   }, {passive: true});
 }
